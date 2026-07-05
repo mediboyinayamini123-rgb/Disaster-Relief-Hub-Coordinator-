@@ -1,0 +1,20 @@
+{
+    "Warehouse A": {
+        "blankets": 500,
+        "food": 1000,
+        "medical_kits": 200
+    },
+
+    "Warehouse B": {
+        "blankets": 300,
+        "food": 500,
+        "medical_kits": 100
+    },
+
+    "Warehouse C": {
+        "blankets": 150,
+        "food": 300,
+        "medical_kits": 50
+    }
+}
+  
