@@ -1,0 +1,146 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: #0f172a;
+    color: white;
+}
+
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+textarea {
+    width: 100%;
+    height: 120px;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    resize: none;
+    font-size: 16px;
+}
+
+.button-group {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+button {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.analyze-btn {
+    background: #2563eb;
+    color: white;
+}
+
+#restockBtn {
+    background: #16a34a;
+    color: white;
+}
+
+.card {
+    background: #1e293b;
+    margin-top: 25px;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.severity-section {
+    margin-top: 15px;
+}
+
+.severity-top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+
+.severity-track {
+    width: 100%;
+    height: 12px;
+    background: #334155;
+    border-radius: 999px;
+    overflow: hidden;
+}
+
+.severity-fill {
+    height: 100%;
+    border-radius: 999px;
+}
+
+.info-grid,
+.section-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.info-card,
+.section-card,
+.weather-card,
+.route-card,
+.recommendation-card {
+    background: #334155;
+    padding: 15px;
+    border-radius: 12px;
+}
+
+.resource-item {
+    margin-bottom: 15px;
+}
+
+.resource-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.resource-bar {
+    width: 100%;
+    height: 10px;
+    background: #475569;
+    border-radius: 999px;
+    overflow: hidden;
+}
+
+.resource-fill {
+    height: 100%;
+    border-radius: 999px;
+}
+
+.shortage-alert {
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    background: #7f1d1d;
+    color: white;
+    font-weight: bold;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+@media (max-width: 768px) {
+
+    .info-grid,
+    .section-grid {
+        grid-template-columns: 1fr;
+    }
+}
