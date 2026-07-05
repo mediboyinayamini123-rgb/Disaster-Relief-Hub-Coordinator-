@@ -75,16 +75,22 @@ Generates final AI-powered disaster response recommendations.
 
 User Prompt
 ⬇
+
 Triage Agent
 ⬇
+
 Resource Matching Agent
 ⬇
+
 Weather Intelligence Agent
 ⬇
+
 Route Intelligence Agent
 ⬇
+
 Recommendation Agent
 ⬇
+
 Final Disaster Response Output
 
 ---
